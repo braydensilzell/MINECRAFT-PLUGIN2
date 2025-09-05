@@ -1,0 +1,16 @@
+name: BlockShuffle
+main: BlockShuffle\Main
+version: 1.0.1
+api: [5.0.0]
+commands:
+  blockshufflestart:
+    description: Start BlockShuffle for all players
+    usage: "/blockshufflestart"
+    permission: blockshuffle.admin
+  blockshufflestop:
+    description: Stop BlockShuffle
+    usage: "/blockshufflestop"
+    permission: blockshuffle.admin
+permissions:
+  blockshuffle.admin:
+    default: op

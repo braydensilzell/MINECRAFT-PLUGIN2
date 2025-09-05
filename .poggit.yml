@@ -1,0 +1,9 @@
+build-by-default: true
+branches:
+- master
+projects:
+  BlockShuffle:
+    path: ""
+    libs:
+      - src: inxomnyaa/apibossbar/apibossbar
+        version: ^0.2.0
